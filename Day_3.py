@@ -18,5 +18,12 @@ print(my_list)
 first_names = {'Adam', 'Beth', 'Charlie'}
 
 # Check membership of the set using in:
-if name in first_names:
-      print(name)
+# if name in first_names:
+#       print(name)
+
+# Interactive input
+name = input("What is your name? ")
+# Out: What is your name? _
+
+print(name)
+# Out: Bob
