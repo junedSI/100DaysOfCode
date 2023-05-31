@@ -27,3 +27,10 @@ name = input("What is your name? ")
 
 print(name)
 # Out: Bob
+
+x = input("Write a number:")
+# Out: Write a number: 10
+# x / 2
+# Out: TypeError: unsupported operand type(s) for /: 'str' and 'int'
+float(x) / 2
+# Out: 5.0
